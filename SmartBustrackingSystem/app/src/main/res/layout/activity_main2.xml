@@ -7,9 +7,7 @@
     tools:ignore="ExtraText"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".MainActivity">
-    <ScrollView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -31,24 +29,16 @@
                 android:layout_margin="5dp"
                 android:gravity="left"
                 android:layout_marginLeft="40dp"
-                android:id="@+id/et_username"
+                android:id="@+id/username"
                 android:inputType="textPersonName"
                 android:hint="Enter the Student Name"/>
+
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="5dp"
                 android:gravity="left"
-                android:layout_marginLeft="40dp"
-                android:id="@+id/et_class"
-                android:inputType="textPersonName"
-                android:hint="Enter the Student class"/>
-            <EditText
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="5dp"
-                android:gravity="left"
-                android:id="@+id/et_usermail"
+                android:id="@+id/parentname"
                 android:inputType="textEmailAddress"
                 android:hint="Enter the Parent /Gaurdian name"/>
             <EditText
@@ -56,7 +46,7 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="5dp"
                 android:gravity="left"
-                android:id="@+id/et_userMobileNumber"
+                android:id="@+id/MobileNumber"
                 android:inputType="number"
                 android:hint="Enter the Mobile Number"/>
             <TextView
@@ -111,7 +101,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="Enter the address "
-                android:id="@+id/et_address"
+                android:id="@+id/address"
                 android:gravity="left"
                 android:layout_margin="5dp"/>
 
@@ -119,15 +109,10 @@
 
 
 
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:id="@+id/tv_result"
-                android:textSize="30sp"
-                android:gravity="center"/>
+
             <Button
                 android:layout_width="100sp"
-                android:layout_height="match_parent"
+                android:layout_height="50dp"
                 android:layout_gravity="center"
                 android:text="save"
                 android:id="@+id/save"/>
@@ -136,6 +121,6 @@
 
         </LinearLayout>
 
-    </ScrollView>
+
 </LinearLayout>
 
