@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#6BCDB3"
+
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="38dp"
+        android:background="#44DFB6"
+        android:fontFamily="serif"
+        android:layout_gravity="center"
+        android:text="Smart Tracking"
+        android:textSize="35sp"
+
+         />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter the Name"
+        android:id="@+id/name"
+        android:textSize="25sp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter the password"
+        android:layout_marginTop="15dp"
+        android:textSize="25sp"
+        android:id="@+id/password"
+        />
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:layout_marginTop="15dp"
+        android:text="Login"
+        android:id="@+id/login"
+        android:layout_gravity="center"/>
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:layout_marginTop="15dp"
+        android:text="Forgot Password?"
+        android:id="@+id/forgot"
+        android:layout_gravity="right"/>
+    <ImageView
+        android:layout_width="400sp"
+        android:layout_height="200sp"
+        android:src="@drawable/fil"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textSize="25sp"
+        android:text="Din't have Account?Register Here"/>
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:layout_marginTop="10dp"
+        android:text="Register "
+        android:id="@+id/Register"
+        android:layout_gravity="center"/>
+
+
+
+</LinearLayout>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1085829498018",
+    "firebase_url": "https://smart-bus-track-default-rtdb.firebaseio.com",
+    "project_id": "smart-bus-track",
+    "storage_bucket": "smart-bus-track.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1085829498018:android:9fadf044e16e328ea143fb",
+        "android_client_info": {
+          "package_name": "com.example.smartbustrackingsystem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1085829498018-jqmpnsg3uee00hhh89e67gk7v6f9latp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCmh9_hDKgiZodCppeHzDEAmb_H2Z2oLKM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1085829498018-jqmpnsg3uee00hhh89e67gk7v6f9latp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
